@@ -1,0 +1,12 @@
+Source: ros-groovy-segway-rmp
+Section: misc
+Priority: extra
+Maintainer: William Woodall <wjwwood@gmail.com>, Piyush Khandelwal <piyushk@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-groovy-catkin, ros-groovy-geometry-msgs, ros-groovy-libsegwayrmp, ros-groovy-message-generation, ros-groovy-nav-msgs, ros-groovy-roscpp, ros-groovy-serial, ros-groovy-std-msgs, ros-groovy-tf
+Homepage: http://ros.org/wiki/segway_rmp
+Standards-Version: 3.9.2
+
+Package: ros-groovy-segway-rmp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-geometry-msgs, ros-groovy-libsegwayrmp, ros-groovy-message-runtime, ros-groovy-nav-msgs, ros-groovy-roscpp, ros-groovy-serial, ros-groovy-std-msgs, ros-groovy-tf
+Description: segway_rmp
