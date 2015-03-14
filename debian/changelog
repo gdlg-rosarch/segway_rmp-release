@@ -1,0 +1,30 @@
+ros-hydro-segway-rmp (0.1.2-0quantal) quantal; urgency=high
+
+  * Merge pull request #24 <https://github.com/segwayrmp/segway_rmp/issues/24> from segwayrmp/piyushk/parametrize_frame_ids
+    allow parametrizing odometry frame id as well (useful for multiple robots)
+  * Contributors: Piyush Khandelwal
+
+ -- William Woodall <wjwwood@gmail.com>  Sat, 14 Mar 2015 05:00:00 -0000
+
+ros-hydro-segway-rmp (0.1.1-0quantal) quantal; urgency=high
+
+  * Merge pull request #12 <https://github.com/segwayrmp/segway_rmp/issues/12> from segwayrmp/cleanup
+    Clean up of build system
+    - missing build_depend on message_generation
+    - added repository url
+    - use find_package on libsegwayrmp, not pkg-config
+    - general CMakeLists.txt cleanup
+    - add missing install target for node
+    - removed old rosinstall file and mainpage.dox
+  * Contributors: Piyush Khandelwal, William Woodall
+
+ -- William Woodall <wjwwood@gmail.com>  Sat, 18 May 2013 05:00:00 -0000
+
+ros-hydro-segway-rmp (0.1.0-0quantal) quantal; urgency=high
+
+  * initial release.
+  * Contributors: Chien-Liang Fok, Piyush Khandelwal, William Woodall
+
+ -- William Woodall <wjwwood@gmail.com>  Tue, 07 May 2013 05:00:00 -0000
+
+
