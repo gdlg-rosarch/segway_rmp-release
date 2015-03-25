@@ -1,0 +1,12 @@
+Source: ros-indigo-segway-rmp
+Section: misc
+Priority: extra
+Maintainer: William Woodall <wjwwood@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-geometry-msgs, ros-indigo-libsegwayrmp, ros-indigo-message-generation, ros-indigo-nav-msgs, ros-indigo-roscpp, ros-indigo-serial, ros-indigo-std-msgs, ros-indigo-tf
+Homepage: http://ros.org/wiki/segway_rmp
+Standards-Version: 3.9.2
+
+Package: ros-indigo-segway-rmp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-geometry-msgs, ros-indigo-libsegwayrmp, ros-indigo-message-runtime, ros-indigo-nav-msgs, ros-indigo-roscpp, ros-indigo-serial, ros-indigo-std-msgs, ros-indigo-tf
+Description: segway_rmp
